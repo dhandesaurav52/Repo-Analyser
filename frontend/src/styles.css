@@ -1,0 +1,10 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+.app { padding: 20px; background: #f5f7fb; min-height: 100vh; color: #111; }
+.app.dark { background: #121212; color: #eee; }
+input { width: 360px; padding: 8px; margin-right: 8px; }
+button { padding: 8px 12px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 12px; margin-top: 16px; }
+section { background: rgba(255,255,255,.85); border-radius: 8px; padding: 12px; }
+.dark section { background: rgba(255,255,255,.08); }
+.error { color: #d9534f; }
+pre { white-space: pre-wrap; word-break: break-word; }
